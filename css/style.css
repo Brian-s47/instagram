@@ -60,3 +60,59 @@ header{
     justify-content: center;
     align-items: center;
 } */
+/********************* Nav **********************/
+.nav__storyTray{
+    background: var(--lorem-container);
+    width: 100%;
+    height: 105.75px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 97.75px;
+    overflow-x: scroll;
+    gap: 12px;
+}
+.nav__storyTray > .div__storyUser {
+    flex: 1;
+    background: var(--lorem-item);
+    min-width: 72px;
+    height: 97.75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div__storyUser img{
+    width: 60.63px;
+    height: 60.63px;
+    position: relative;
+    background: var(--lorem-item-box);
+    border-radius: 100%;
+    outline: 2.5px solid linear-gradient(#C91389, #F9393f, #FECD00);
+    border: 3.5px solid var(--color-1);
+}
+.div__storyUser span{
+    background: var(--lorem-item-box);
+    width: 59.64px;
+    height: 25.75px;
+    padding: 0 6.18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    font-family: "sfuidisplay_bold";
+    font-size: 11.5px;
+    color: var(--color-2);
+}
+/********************* Lorem ********************/
+/* .div__storyUser img::after{
+    content: "24 x 24";
+    font-family: "sans-serif";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

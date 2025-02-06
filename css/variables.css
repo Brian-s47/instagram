@@ -2,9 +2,14 @@
     --color-1: #EEE;
     --lorem-item: #f3f4f4;
     --lorem-container: #dadce0;
-    --lorem-item-box: #;
+    --lorem-item-box: #ccdbfe;
+    --color-2: #6e6e6e;
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "sfuidisplay_bold";
+    src: url(../storage/font/sfuidisplay_bold.ttf);
+}
+@font-face {
+    font-family: "sfuidisplay_heavy";
+    src: url(../storage/font/sfuidisplay_heavy.ttf);
 }
