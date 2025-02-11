@@ -1,9 +1,19 @@
 :root{
-    --color-1: #EEE;
     --lorem-item: #f3f4f4;
     --lorem-container: #dadce0;
     --lorem-item-box: #ccdbfe;
-    --color-2: #6e6e6e;
+
+    --color-1:#000000;
+    --color-2:#FFFFFF;
+    --color-3:#6E6E6E;
+    --color-4:#DDDDDD;
+    --color-5:#FE0135;
+    --color-6:#999999;
+    --color-7:hsla(0, 0%, 0%, 0.500);
+    --color-8:hsla(0, 0%, 0%, 0.100);
+    --color-8: #1FA1FF;
+
+    --color-gradient: linear-gradient(225deg, #C913B9, #F9373F, #FECD00);
 }
 @font-face {
     font-family: "sfuidisplay_bold";
